@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Please fill in all fields");
       return;
     }
-
     // 🚨 Dynamically generated certificate content.
     certificateContent.innerHTML = `
           <h2>Certificate of Achievemnt</h2>
@@ -35,26 +34,21 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="./logo.png" alt="logo" style="margin-top: 20px; max-height: 100px;">
             <p>${personalMessage}</p>
           `;
-
     //  Modal Display
     modal.style.display = "block";
-
     // Clear the form inputs
     studentNameInput.value = "";
     personalMessageInput.value = "";
     if (courseNameInput) courseNameInput.value = "";
   });
-
   //  🚨 Close the modal when the close button is clicked
   closeModal.addEventListener("click", function () {
     modal.style.display = "none";
   });
-
   window.addEventListener("click", function (e) {
     if (e.target == modal) {
       modal.style.display = "none";
     }
   });
-
   closeModal.style.cursor="pointer";
 });
