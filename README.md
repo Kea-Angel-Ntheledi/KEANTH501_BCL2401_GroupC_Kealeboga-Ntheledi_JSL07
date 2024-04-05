@@ -40,3 +40,5 @@ Partial implementation for collecting input values, where specific assignments a
 
 Get going and celebrate your progress 🥳🥳🥳
 
+# my resume link:
+https://docs.google.com/document/d/1hC4RwuqheM0WHye8sb90vDa4vlSLvqh1wzqy7YPJfds/edit
